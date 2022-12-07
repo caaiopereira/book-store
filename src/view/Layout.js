@@ -1,10 +1,39 @@
 import { Outlet, Link } from "react-router-dom";
 import { Button } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {NavItem, NavLink, Nav} from 'reactstrap'
 
 const Layout = () => {
   return (
     <>
+    <Nav>
+  <NavItem>
+    <NavLink>
+    <Link to="/">Home</Link>
+    </NavLink>
+  </NavItem>
+  <NavItem>
+    <NavLink>
+    <Link to="/Produtos">Home</Link>
+    </NavLink>
+  </NavItem>
+  <NavItem>
+    <NavLink
+      disabled
+      href="#"
+    >
+      Disabled Link
+    </NavLink>
+  </NavItem>
+</Nav>
+ <Outlet />
+ </>
+  );
+};
+
+export default Layout;
+
+{/* <>
       <nav>
         <ul>
           <li>
@@ -28,8 +57,4 @@ const Layout = () => {
         </ul>
       </nav>
       <Outlet />
-    </>
-  )
-};
-
-export default Layout;
+    </> */}
