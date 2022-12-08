@@ -5,6 +5,7 @@ import Home from "./view/Home";
 import Contatos from "./view/Contatos";
 import NoPage from "./view/NoPages";
 import Sobre from "./view/Sobre";
+import Footer from "./view/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="Sobre" element={<Sobre />} />
           <Route path="Contatos" element={<Contatos />} />
+          <Route path="Footer" element={<Footer />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

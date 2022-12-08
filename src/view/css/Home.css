@@ -2,5 +2,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 3em;
+    margin-top: 1em;
+}
+
+.faixaStyle{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    letter-spacing: 0.5em;
+    padding: 10px;
 }

@@ -1,14 +1,13 @@
 import error from './img/404.jpg';
 import './css/NoPages.css';
-import { Outlet, Link } from "react-router-dom";
+import { Outlet} from "react-router-dom";
 
 const NoPage = () => {
     return (
       <>
-    <img src={error} className="banner" />
-    <button><Link to="/">Home</Link></button>
+    <a href='/'><img src={error} className="banner"/></a>
     <Outlet />
-    </> // div filho
+    </>
     );
   };
   

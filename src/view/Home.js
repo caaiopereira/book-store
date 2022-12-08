@@ -1,5 +1,4 @@
 import {Card, CardBody, CardTitle, CardText, Button, CardSubtitle  } from 'reactstrap';
-import './css/Home.css'
 import React, { useState } from 'react';
 import {
   Carousel,
@@ -8,6 +7,8 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from 'reactstrap';
+import './css/Home.css'
+import { click } from '@testing-library/user-event/dist/click';
 
 const items = [
   {
@@ -96,7 +97,9 @@ function Home(props) {
       </Carousel>
     </div>
 
-
+<div className='faixaStyle'>
+    <h3>TEMA</h3>
+</div>
 
 
 {/* //////////////////////////////////////////////////////////////////////////// */}
@@ -228,6 +231,148 @@ function Home(props) {
     </Card>
 </div>
 
+
+{/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+
+<div className='faixaStyle'>
+    <h3>TEMA</h3>
+</div>
+
+<div className="cardStyle">
+<Card
+      color="secondary"
+      outline
+      style={{
+        width: '18rem'
+      }}
+    >
+      <img
+        alt="Sample"
+        src="https://picsum.photos/300/200"
+      />
+      <CardBody>
+        <CardTitle tag="h5">
+          Card title
+        </CardTitle>
+        <CardSubtitle
+          className="mb-2 text-muted"
+          tag="h6"
+        >
+          Card subtitle
+        </CardSubtitle>
+        <CardText>
+          Some quick example text to build on the card title and make up the bulk of the card‘s content.
+        </CardText>
+        <Button>
+          Button
+        </Button>
+      </CardBody>
+    </Card>
+
+
+<Card
+      color="secondary"
+      outline
+      style={{
+        width: '18rem'
+      }}
+    >
+      <img
+        alt="Sample"
+        src="https://picsum.photos/300/200"
+      />
+      <CardBody>
+        <CardTitle tag="h5">
+          Card title
+        </CardTitle>
+        <CardSubtitle
+          className="mb-2 text-muted"
+          tag="h6"
+        >
+          Card subtitle
+        </CardSubtitle>
+        <CardText>
+          Some quick example text to build on the card title and make up the bulk of the card‘s content.
+        </CardText>
+        <Button>
+          Button
+        </Button>
+      </CardBody>
+    </Card>
+
+
+
+    <Card
+      color="secondary"
+      outline
+      style={{
+        width: '18rem'
+      }}
+    >
+      <img
+        alt="Sample"
+        src="https://picsum.photos/300/200"
+      />
+      <CardBody>
+        <CardTitle tag="h5">
+          Card title
+        </CardTitle>
+        <CardSubtitle
+          className="mb-2 text-muted"
+          tag="h6"
+        >
+          Card subtitle
+        </CardSubtitle>
+        <CardText>
+          Some quick example text to build on the card title and make up the bulk of the card‘s content.
+        </CardText>
+        <Button>
+          Button
+        </Button>
+      </CardBody>
+    </Card>
+
+
+
+
+    <Card
+      color="secondary"
+      outline
+      style={{
+        width: '18rem'
+      }}
+    >
+      <img
+        alt="Sample"
+        src="https://picsum.photos/300/200"
+      />
+      <CardBody>
+        <CardTitle tag="h5">
+          Card title
+        </CardTitle>
+        <CardSubtitle
+          className="mb-2 text-muted"
+          tag="h6"
+        >
+          Card subtitle
+        </CardSubtitle>
+        <CardText>
+          Some quick example text to build on the card title and make up the bulk of the card‘s content.
+        </CardText>
+        <Button>
+          Button
+        </Button>
+      </CardBody>
+    </Card>
+
+
+</div>
+
+{/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+
+<div className='faixaStyle'>
+    <h3>TEMA</h3>
+</div>
 
 <div className="cardStyle">
 <Card
