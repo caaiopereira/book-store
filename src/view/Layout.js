@@ -1,60 +1,79 @@
-import { Outlet, Link } from "react-router-dom";
-import { Button } from 'reactstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import {NavItem, NavLink, Nav} from 'reactstrap'
+import {Navbar, NavbarBrand, NavItem, NavLink, Nav} from 'reactstrap'
+import './css/Layout.css' 
+import { Outlet} from "react-router-dom"
 
 const Layout = () => {
   return (
-    <>
-    <Nav>
-  <NavItem>
-    <NavLink>
-    <Link to="/">Home</Link>
-    </NavLink>
-  </NavItem>
-  <NavItem>
-    <NavLink>
-    <Link to="/Produtos">Home</Link>
-    </NavLink>
-  </NavItem>
-  <NavItem>
-    <NavLink
-      disabled
-      href="#"
-    >
-      Disabled Link
-    </NavLink>
-  </NavItem>
-</Nav>
- <Outlet />
- </>
-  );
+<>
+  <Navbar fixed="top"
+    color="dark"
+    dark
+  >
+    <NavbarBrand href="/">
+      <img
+        alt="logo"
+        src="https://images.vexels.com/media/users/3/229082/isolated/preview/6fabc24c3830d75486725cc6d786dfbb-logotipo-dos-circulos-do-livro.png"
+        style={{
+          height: 40,
+          width: 40
+        }}
+      />
+      <h7 className="buttonStyle">REACTSTRAP</h7>
+    </NavbarBrand>
+
+    <Nav >
+  <NavItem  >
+  <NavLink href="/">
+     <h7 className="buttonStyle">Home</h7> 
+     </NavLink>
+   </NavItem>
+
+   <NavItem>
+     <NavLink href="/Sobre">
+     <h7 className="buttonStyle">Sobre</h7> 
+     </NavLink>
+   </NavItem>
+
+   <NavItem>
+     <NavLink href="/Contatos">
+     <h7 className="buttonStyle">Contato</h7> 
+     </NavLink>
+   </NavItem>
+
+ </Nav>
+  </Navbar>
+  <Outlet />
+</>
+    );
 };
 
 export default Layout;
 
-{/* <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/Produtos">Produtos</Link>
-          </li>
-          <li>
-            <Link to="/Midia">Midia</Link>
-          </li>
-          <li>
-            <Link to="/Sobre">Sobre</Link>
-          </li>
-          <li>
-            <Link to="/Contatos">Contatos</Link>
-          </li>
-          <li>
-            <Link to="/Dashboard">Dashboard</Link>
-          </li>
-        </ul>
-      </nav>
-      <Outlet />
-    </> */}
+// import { Outlet, Link } from "react-router-dom";
+// import {NavItem, NavLink, Nav, Button} from 'reactstrap'
+
+// const Layout = () => {
+//   return (
+//     <>
+//     <Nav>
+//   <NavItem>
+//   <NavLink href="/">
+//      Home
+//     </NavLink>
+//   </NavItem>
+//   <NavItem>
+//     <NavLink href="/Sobre">
+//     Sobre
+//     </NavLink>
+//   </NavItem>
+//   <NavItem>
+//     <NavLink href="/Contatos">Contatos
+//     </NavLink>
+//   </NavItem>
+// </Nav>
+//  <Outlet />
+//  </>
+//   );
+// };
+
+// export default Layout;
