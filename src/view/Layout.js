@@ -29,6 +29,12 @@ const Layout = () => {
           </NavItem>
 
           <NavItem>
+            <NavLink href="/Livros">
+              <h7 className="buttonStyle">Livros</h7>
+            </NavLink>
+          </NavItem>
+
+          <NavItem>
             <NavLink href="/Sobre">
               <h7 className="buttonStyle">Sobre</h7>
             </NavLink>
