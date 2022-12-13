@@ -5,8 +5,8 @@ const Sobre = () => {
     return (
       <>
     <div className='p-5 text-center bannerStyle'>
-    <h1 className='mb-3'>Heading</h1>
-    <h4 className='mb-3'>Subheading</h4>
+    <h1 className='mb-3'>Sobre Nós</h1>
+    <h4 className='mb-3'>Missão, Visão e Valores</h4>
   </div>
 
   <MDBContainer className="margin-text">
@@ -19,7 +19,9 @@ const Sobre = () => {
               height: 400,
               width: 400
             }}/>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+       Contribuir para o desenvolvimento pessoal e profissional através do conhecimento.
+Descobrir, apoiar e promover o talento literário, objetivando oferecer aos leitores de todo do Brasil e do mundo obras publicadas nos mais diversos gêneros, todas com qualidade e estética exemplar.
+
         </MDBCol>
         <MDBCol size='md'>
         <img
@@ -29,7 +31,8 @@ const Sobre = () => {
               height: 400,
               width: 400
             }}/>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+       Ser uma empresa de atuação nacional e reconhecida como a melhor do segmento.
+Promover a leitura e, em parceria com nossos autores, divulgar conteúdos que entretenham e inspirem a todos viver mais e melhor
         </MDBCol>
         <MDBCol size='md'>
         <img
@@ -39,7 +42,8 @@ const Sobre = () => {
               height: 400,
               width: 400
             }}/>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        Incentivo à leitura, ao desenvolvimento humano e à construção de uma sociedade melhor;
+Trabalho em equipe com profissionalismo, competência, entusiasmo e inovação.
         </MDBCol>
       </MDBRow>
     </MDBContainer>
