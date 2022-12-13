@@ -10,27 +10,41 @@ import {
 import './css/Home.css'
 import { click } from '@testing-library/user-event/dist/click';
 
+import invest from './img/educacao/Investimentos Inteligentes.png'
+import pai from './img/educacao/Pai Rico Pai Pobre.png';
+import brilhantes from './img/educacao/Pais Brilhantes, Professores Fascinantes.png';
+import pedagogia from './img/educacao/Pedagogia do Oprimido.png';
+
+import historia from './img/esporte&lazer/A História do Futebol para quem tem pressa.png';
+import federer from './img/esporte&lazer/Federer.png';
+import guardiola from './img/esporte&lazer/Guardiola confidencial.png';
+import vitoria from './img/esporte&lazer/O algoritmo da vitória.png';
+
+import garota from './img/ficcao/A Garota do Lago.png';
+import bicho from './img/ficcao/A Revolução dos Bichos.png';
+import acaba from './img/ficcao/É Assim que Acaba.png';
+import diario from './img/ficcao/O Diário Perdido de Gravity Falls.png';
+
+import one from './img/banner/1.jpg';
+import two from './img/banner/2.jpg';
+import three from './img/banner/3.jpg';
+
 const items = [
   {
-    id: 1,
-    altText: 'Slide 1',
-    caption: 'Slide 1',
+    src: one
   },
   {
-    id: 2,
-    altText: 'Slide 2',
-    caption: 'Slide 2',
+    src: two  
   },
   {
-    id: 3,
-    altText: 'Slide 3',
-    caption: 'Slide 3',
+    src: three
   },
 ];
 
-function Home(props) {
+function Home(args) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
+
 
   const next = () => {
     if (animating) return;
@@ -52,14 +66,12 @@ function Home(props) {
   const slides = items.map((item) => {
     return (
       <CarouselItem
-        className="custom-tag"
-        tag="div"
-        key={item.id}
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
+        key={item.src}
       >
+        <img src={item.src} alt={item.altText} />
         <CarouselCaption
-          className="text-danger"
           captionText={item.caption}
           captionHeader={item.caption}
         />
@@ -69,36 +81,37 @@ function Home(props) {
 
   return (
     <>
-    <div>
-      <style>
-        {`.custom-tag {
-              max-width: 100%;
-              height: 500px;
-              background: black;
-            }`}
-      </style>
-      <Carousel activeIndex={activeIndex} next={next} previous={previous}>
-        <CarouselIndicators
-          items={items}
-          activeIndex={activeIndex}
-          onClickHandler={goToIndex}
-        />
-        {slides}
-        <CarouselControl
-          direction="prev"
-          directionText="Previous"
-          onClickHandler={previous}
-        />
-        <CarouselControl
-          direction="next"
-          directionText="Next"
-          onClickHandler={next}
-        />
-      </Carousel>
+    <div className="marginNav">
+    <Carousel
+      activeIndex={activeIndex}
+      next={next}
+      previous={previous}
+      {...args}
+    >
+      <CarouselIndicators
+        items={items}
+        activeIndex={activeIndex}
+        onClickHandler={goToIndex}
+      />
+      {slides}
+      <CarouselControl
+        direction="prev"
+        directionText="Previous"
+        onClickHandler={previous}
+      />
+      <CarouselControl
+        direction="next"
+        directionText="Next"
+        onClickHandler={next}
+      />
+    </Carousel>
     </div>
 
+
+{/* ///////////////////////////////////////////////////// */}
+
 <div className='faixaStyle'>
-    <h3>TEMA</h3>
+    <h3>EDUCAÇÃO</h3>
 </div>
 
 
@@ -113,10 +126,8 @@ function Home(props) {
         width: '18rem'
       }}
     >
-      <img
-        alt="Sample"
-        src="https://picsum.photos/300/200"
-      />
+      <img alt="Sample" src={invest} />
+
       <CardBody>
         <CardTitle tag="h5">
           Card title
@@ -145,7 +156,7 @@ function Home(props) {
     >
       <img
         alt="Sample"
-        src="https://picsum.photos/300/200"
+        src={pai}
       />
       <CardBody>
         <CardTitle tag="h5">
@@ -177,7 +188,7 @@ function Home(props) {
     >
       <img
         alt="Sample"
-        src="https://picsum.photos/300/200"
+        src={brilhantes}
       />
       <CardBody>
         <CardTitle tag="h5">
@@ -209,7 +220,7 @@ function Home(props) {
     >
       <img
         alt="Sample"
-        src="https://picsum.photos/300/200"
+        src={pedagogia}
       />
       <CardBody>
         <CardTitle tag="h5">
@@ -235,7 +246,7 @@ function Home(props) {
 {/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
 <div className='faixaStyle'>
-    <h3>TEMA</h3>
+    <h3>ESPORTE</h3>
 </div>
 
 <div className="cardStyle">
@@ -248,7 +259,7 @@ function Home(props) {
     >
       <img
         alt="Sample"
-        src="https://picsum.photos/300/200"
+        src={historia}
       />
       <CardBody>
         <CardTitle tag="h5">
@@ -279,7 +290,7 @@ function Home(props) {
     >
       <img
         alt="Sample"
-        src="https://picsum.photos/300/200"
+        src={federer}
       />
       <CardBody>
         <CardTitle tag="h5">
@@ -311,7 +322,7 @@ function Home(props) {
     >
       <img
         alt="Sample"
-        src="https://picsum.photos/300/200"
+        src={guardiola}
       />
       <CardBody>
         <CardTitle tag="h5">
@@ -344,7 +355,7 @@ function Home(props) {
     >
       <img
         alt="Sample"
-        src="https://picsum.photos/300/200"
+        src={vitoria}
       />
       <CardBody>
         <CardTitle tag="h5">
@@ -371,7 +382,7 @@ function Home(props) {
 {/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */}
 
 <div className='faixaStyle'>
-    <h3>TEMA</h3>
+    <h3>FICÇÃO</h3>
 </div>
 
 <div className="cardStyle">
@@ -384,7 +395,7 @@ function Home(props) {
     >
       <img
         alt="Sample"
-        src="https://picsum.photos/300/200"
+        src={garota}
       />
       <CardBody>
         <CardTitle tag="h5">
@@ -415,7 +426,7 @@ function Home(props) {
     >
       <img
         alt="Sample"
-        src="https://picsum.photos/300/200"
+        src={bicho}
       />
       <CardBody>
         <CardTitle tag="h5">
@@ -447,7 +458,7 @@ function Home(props) {
     >
       <img
         alt="Sample"
-        src="https://picsum.photos/300/200"
+        src={acaba}
       />
       <CardBody>
         <CardTitle tag="h5">
@@ -480,7 +491,7 @@ function Home(props) {
     >
       <img
         alt="Sample"
-        src="https://picsum.photos/300/200"
+        src={diario}
       />
       <CardBody>
         <CardTitle tag="h5">

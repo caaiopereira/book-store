@@ -18,7 +18,7 @@ const Layout = () => {
               height: 40,
               width: 40
             }} />
-          <h7 className="buttonStyle">REACTSTRAP</h7>
+          <h7 className="buttonStyle">BOOK STORE</h7>
         </NavbarBrand>
 
         <Nav>

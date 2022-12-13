@@ -1,4 +1,4 @@
-import { MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import './css/Sobre.css'
 
 const Sobre = () => {

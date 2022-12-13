@@ -1,3 +1,8 @@
 .footerStyle{
     margin-top: 3em;
 }
+.icon{
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+}
