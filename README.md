@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Criar um site utilizando o json.server
 
 
     O projeto deverá ser construído usando o framework React
