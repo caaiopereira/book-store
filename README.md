@@ -6,3 +6,24 @@
     deverá utilizar um servidor Json construído anteriormente.
     Este projeto deverá seguir um tema dos utilizados pelos
     integrantes no projeto 1. 
+
+# Requisitos
+    
+    ⇨ Utilizar a biblioteca react-router-dom para
+    roteamento das páginas;
+    
+    ◼ O site deve realizar todos os métodos
+    HTTP:
+
+    □ GET - Página para listar os
+    cadastros ou produtos com
+    opção de busca;
+    
+    □ POST - Página para incluir um
+    novo registro ou produto;
+    
+    □ PUT - Página para editar os
+    cadastros ou produtos;
+    
+    □ DELETE - Opção de excluir itens
+    cadastrados.
