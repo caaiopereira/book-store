@@ -1,68 +1,16 @@
-import React, {useState, useEffect} from "react"
+import React, {useState} from "react"
 import axios from "axios";
-import {Table, Button, Form} from "reactstrap";
+import {Table, Button} from "reactstrap";
+import swal from 'sweetalert';
+import { Link } from "react-router-dom";
 import './css/Livros.css'
-
-/*function Livros() {
-    const [posts, setPosts] = useState([])
-    useEffect(() => {
-        axios.get("https://desenvolvendo-servidor-json.vercel.app/livros")
-        .then((response) => {
-            setPosts(response.data)
-        })
-        .catch(() => {
-            console.log("Deu errado")
-        })
-    }, [])
-}*/
-
-// class Livros extends React.Component{
-
-    // constructor(props){
-    //     super(props);
-
-    //     this.state = {
-    //         livros : []
-    //     }
-    // }
-
-    // componentDidMount(){
-    //     this.buscarLivros();              
-    // }
-
-    // componentWillUnmount(){
-        
-    // }
-
-    // buscarLivros = () => {
-    //     fetch("https://desenvolvendo-servidor-json.vercel.app/livros")
-    //     .then(resposta => resposta.json())
-    //     .then(dados => {
-    //         this.setState({livros : dados})
-    //     })  
-    // }
-
-
 
 
     
-
-    // deletarLivros = (id) => {
-    //     fetch("https://desenvolvendo-servidor-json.vercel.app/livros"+id, {method: 'DELETE'})
-    //     .then(resposta => {
-    //         if(resposta.ok){
-    //             this.buscarLivros();
-    //         }
-    //     })  
-    // }
-
-
     const baseURL = "https://desenvolvendo-servidor-json.vercel.app/livros";
 
     function Livros() {
         const [livros, setPost] = useState([]);
-        
-        console.log(livros);
 
         React.useEffect(() => {
             axios.get(`${baseURL}`).then((response) => {
@@ -70,24 +18,21 @@ import './css/Livros.css'
             });
           }, []);
 
-        
-
-        //   function getPost(){
-              
-        //     axios.get(`${baseURL}`).then((response) => {
-        //         setPost(response.data);
-                
-        //       });
-
-        //   }
-
+    
           function deletePost(id) {
                 axios.delete(`${baseURL}/${id}`).then(() => {
                     setPost(null);
-
-                  });
-                 
+                  })
+                  .catch(() => {
+                    swal({
+                        title: "Apagado",
+                        text: "Livro foi excluído com sucesso",
+                        icon: "error",
+                      });
+                })
           }
+
+
 
           if (!livros) return null;
 
@@ -102,8 +47,7 @@ import './css/Livros.css'
                         <th>Editora</th>
                         <th>Idioma</th>
                         <th>Páginas</th>
-                        <th>Ano de Edição</th>
-                        <th>Opções</th>
+                        <th>Ano</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -116,7 +60,9 @@ import './css/Livros.css'
                              <td>{idioma}</td>
                              <td>{paginas}</td>
                              <td>{ano}</td>
-                             <td>Atualizar<Button onClick={() => deletePost(id)} color="danger">Excluir</Button></td>
+                             <td><Button href="/AddLivros" color="success">Adicionar</Button></td>
+                             <td><Link to={{ pathname: `/EditLivros/${id}`}} href="/EditLivros"><Button color="warning">Editar</Button></Link></td>
+                             <td><Button onClick={() => deletePost(id)} color="danger">Excluir</Button></td>
                          </tr>
                         ))}
                        

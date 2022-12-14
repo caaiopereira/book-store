@@ -1,6 +1,6 @@
-import error from './img/404.jpg';
+import error from './img/nopage/404.jpg';
 import './css/NoPages.css';
-import { Outlet} from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 const NoPage = () => {
     return (

@@ -5,8 +5,8 @@ const Contatos = () => {
     return (
       <>
       <div className='p-5 text-center bannerStyle'>
-    <h1 className='mb-3'>Contato</h1>
-    <h4 className='mb-3'>Entre em Contato Conosco</h4>
+    <h1 className='mb-3'>Heading</h1>
+    <h4 className='mb-3'>Subheading</h4>
   </div>
       
       <Form className="container margin-text">
@@ -19,7 +19,7 @@ const Contatos = () => {
         <Input
           id="exampleEmail"
           name="email"
-          placeholder="digite seu e-mail"
+          placeholder="with a placeholder"
           type="email"
           required
         />
@@ -28,12 +28,12 @@ const Contatos = () => {
     <Col md={6}>
       <FormGroup>
         <Label for="examplePassword">
-          Senha
+          Password
         </Label>
         <Input
           id="examplePassword"
           name="password"
-          placeholder="digite sua senha"
+          placeholder="password placeholder"
           type="password"
           required
         />
@@ -42,23 +42,23 @@ const Contatos = () => {
   </Row>
   <FormGroup>
     <Label for="exampleAddress">
-      Endereço
+      Address
     </Label>
     <Input
       id="exampleAddress"
       name="address"
-      placeholder="Rua Bruxelas, 720"
+      placeholder="1234 Main St"
       required
     />
   </FormGroup>
   <FormGroup>
     <Label for="exampleAddress2">
-      Complemento
+      Address 2
     </Label>
     <Input
       id="exampleAddress2"
       name="address2"
-      placeholder="Bloco, Apartamento, Andar"
+      placeholder="Apartment, studio, or floor"
       required
     />
   </FormGroup>
@@ -66,7 +66,7 @@ const Contatos = () => {
     <Col md={6}>
       <FormGroup>
         <Label for="exampleCity">
-          Cidade
+          City
         </Label>
         <Input
           id="exampleCity"
@@ -78,7 +78,7 @@ const Contatos = () => {
     <Col md={4}>
       <FormGroup>
         <Label for="exampleState">
-          Estado
+          State
         </Label>
         <Input
           id="exampleState"
@@ -90,7 +90,7 @@ const Contatos = () => {
     <Col md={2}>
       <FormGroup>
         <Label for="exampleZip">
-          CEP
+          Zip
         </Label>
         <Input
           id="exampleZip"
@@ -101,7 +101,7 @@ const Contatos = () => {
     </Col>
   </Row>
   <Button>
-    Enviar
+    Sign in
   </Button>
 </Form>
 </>

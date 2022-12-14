@@ -6,10 +6,10 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 import './css/Footer.css';
-import insta from './img/instagram.png';
-import wpp from './img/wpp.png';
-import fb from './img/facebook.png';
-import tt from './img/twitter.png'
+import insta from './img/icon/instagram.png';
+import wpp from './img/icon/wpp.png';
+import fb from './img/icon/facebook.png';
+import tt from './img/icon/twitter.png'
 
 const Footer = () => {
     return (
