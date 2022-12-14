@@ -130,19 +130,19 @@ function Home(args) {
 
       <CardBody>
         <CardTitle tag="h5">
-          Card title
+          Investimentos Inteligentes
         </CardTitle>
         <CardSubtitle
           className="mb-2 text-muted"
           tag="h6"
         >
-          Card subtitle
+          Gustavo Cerbasi
         </CardSubtitle>
         <CardText>
-          Some quick example text to build on the card title and make up the bulk of the card‘s content.
+        Estratégias para multiplicar seu patrimônio com segurança e eficiência.
         </CardText>
         <Button>
-          Button
+          Confira
         </Button>
       </CardBody>
     </Card>
@@ -160,19 +160,19 @@ function Home(args) {
       />
       <CardBody>
         <CardTitle tag="h5">
-          Card title
+        Pai Rico, Pai Pobre
         </CardTitle>
         <CardSubtitle
           className="mb-2 text-muted"
           tag="h6"
         >
-          Card subtitle
+          Robert T. Kiyosaki
         </CardSubtitle>
         <CardText>
-          Some quick example text to build on the card title and make up the bulk of the card‘s content.
+        Celebrando 20 anos com o livro n° 1 em finanças pessoais.
         </CardText>
         <Button>
-          Button
+          Confira
         </Button>
       </CardBody>
     </Card>
@@ -192,19 +192,19 @@ function Home(args) {
       />
       <CardBody>
         <CardTitle tag="h5">
-          Card title
+        Pais brilhantes, professores fascinantes
         </CardTitle>
         <CardSubtitle
           className="mb-2 text-muted"
           tag="h6"
         >
-          Card subtitle
+          Augusto Cury
         </CardSubtitle>
         <CardText>
-          Some quick example text to build on the card title and make up the bulk of the card‘s content.
+        Os pais e os professores lutam pelo mesmo sonho: tornar seus filhos e alunos felizes, saudáveis e sábios. Mas jamais estiveram tão perdidos na árdua tarefa de educar.
         </CardText>
         <Button>
-          Button
+          Confira
         </Button>
       </CardBody>
     </Card>
@@ -224,19 +224,19 @@ function Home(args) {
       />
       <CardBody>
         <CardTitle tag="h5">
-          Card title
+        Pedagogia do Oprimido
         </CardTitle>
         <CardSubtitle
           className="mb-2 text-muted"
           tag="h6"
         >
-          Card subtitle
+          Paulo Freire
         </CardSubtitle>
         <CardText>
-          Some quick example text to build on the card title and make up the bulk of the card‘s content.
+        Clássico do Patrono da Educação, Pedagogia do oprimido é uma das obras de ciências sociais e humanas mais citadas no mundo.
         </CardText>
         <Button>
-          Button
+          Confira
         </Button>
       </CardBody>
     </Card>
@@ -263,19 +263,19 @@ function Home(args) {
       />
       <CardBody>
         <CardTitle tag="h5">
-          Card title
+        A História do Futebol para quem tem pressa
         </CardTitle>
         <CardSubtitle
           className="mb-2 text-muted"
           tag="h6"
         >
-          Card subtitle
+          Márcio Trevisan
         </CardSubtitle>
         <CardText>
-          Some quick example text to build on the card title and make up the bulk of the card‘s content.
+        Uma das mais conhecidas frases do mundo da bola diz que, no futebol, a velocidade é essencial, mas a pressa... totalmente dispensável.
         </CardText>
         <Button>
-          Button
+          Confira
         </Button>
       </CardBody>
     </Card>
@@ -294,19 +294,19 @@ function Home(args) {
       />
       <CardBody>
         <CardTitle tag="h5">
-          Card title
+        Federer
         </CardTitle>
         <CardSubtitle
           className="mb-2 text-muted"
           tag="h6"
         >
-          Card subtitle
+          Christopher Clarey
         </CardSubtitle>
         <CardText>
-          Some quick example text to build on the card title and make up the bulk of the card‘s content.
+        A biografia definitiva de um verdadeiro campeão e um ídolo que segue fazendo história.
         </CardText>
         <Button>
-          Button
+          Confira
         </Button>
       </CardBody>
     </Card>
@@ -326,19 +326,19 @@ function Home(args) {
       />
       <CardBody>
         <CardTitle tag="h5">
-          Card title
+        Guardiola confidencial
         </CardTitle>
         <CardSubtitle
           className="mb-2 text-muted"
           tag="h6"
         >
-          Card subtitle
+          Perarnau Martí
         </CardSubtitle>
         <CardText>
-          Some quick example text to build on the card title and make up the bulk of the card‘s content.
+        Josep Guadiola i Sala, ou simplesmente Pep Guardiola, o nome que o futebol consagrou, é o personagem central do livro.
         </CardText>
         <Button>
-          Button
+          Confira
         </Button>
       </CardBody>
     </Card>
@@ -359,19 +359,19 @@ function Home(args) {
       />
       <CardBody>
         <CardTitle tag="h5">
-          Card title
+        O algoritmo da vitória
         </CardTitle>
         <CardSubtitle
           className="mb-2 text-muted"
           tag="h6"
         >
-          Card subtitle
+          José Salibi Neto
         </CardSubtitle>
         <CardText>
-          Some quick example text to build on the card title and make up the bulk of the card‘s content.
+        Todos nós colecionamos vitórias e derrotas na vida. A diferença está em aumentar as chances de vencer. Nada melhor do que os esportes de alta performance para ensinar isso.
         </CardText>
         <Button>
-          Button
+          Confira
         </Button>
       </CardBody>
     </Card>
@@ -399,19 +399,19 @@ function Home(args) {
       />
       <CardBody>
         <CardTitle tag="h5">
-          Card title
+        A garota do lago
         </CardTitle>
         <CardSubtitle
           className="mb-2 text-muted"
           tag="h6"
         >
-          Card subtitle
+          Charlie Donlea
         </CardSubtitle>
         <CardText>
-          Some quick example text to build on the card title and make up the bulk of the card‘s content.
+        Summit Lake, uma pequena cidade entre montanhas, é esse tipo de lugar, bucólico e com encantadoras casas dispostas à beira de um longo trecho de água intocada. Duas semanas atrás, a estudante de direito Becca Eckersley foi brutalmente assassinada em uma dessas casas. Filha de um poderoso advogado, Becca estava no auge de sua vida. Atraída instintivamente pela notícia, a repórter Kelsey Castle vai até a cidade para investigar o caso.
         </CardText>
         <Button>
-          Button
+          Confira
         </Button>
       </CardBody>
     </Card>
@@ -430,19 +430,19 @@ function Home(args) {
       />
       <CardBody>
         <CardTitle tag="h5">
-          Card title
+        A revolução dos bichos
         </CardTitle>
         <CardSubtitle
           className="mb-2 text-muted"
           tag="h6"
         >
-          Card subtitle
+          George Orwell
         </CardSubtitle>
         <CardText>
-          Some quick example text to build on the card title and make up the bulk of the card‘s content.
+        Verdadeiro clássico moderno, concebido por um dos mais influentes escritores do século XX, A revolução dos bichos é uma fábula sobre o poder. Narra a insurreição dos animais de uma granja contra seus donos. Progressivamente, porém, a revolução degenera numa tirania ainda mais opressiva que a dos humanos.
         </CardText>
         <Button>
-          Button
+          Confira
         </Button>
       </CardBody>
     </Card>
@@ -462,19 +462,19 @@ function Home(args) {
       />
       <CardBody>
         <CardTitle tag="h5">
-          Card title
+        É assim que acaba
         </CardTitle>
         <CardSubtitle
           className="mb-2 text-muted"
           tag="h6"
         >
-          Card subtitle
+          Colleen Hoover
         </CardSubtitle>
         <CardText>
-          Some quick example text to build on the card title and make up the bulk of the card‘s content.
+        Considerado o livro do ano, que virou febre no TikTok e sozinho já acumulou mais de um milhão de exemplares vendidos no Brasil. É assim que acaba é o romance mais pessoal da carreira de Colleen Hoover, discutindo temas como violência doméstica e abuso psicológico de forma sensível e direta. 
         </CardText>
         <Button>
-          Button
+          Confira
         </Button>
       </CardBody>
     </Card>
@@ -495,19 +495,19 @@ function Home(args) {
       />
       <CardBody>
         <CardTitle tag="h5">
-          Card title
+        O Diário Perdido de Gravity Falls
         </CardTitle>
         <CardSubtitle
           className="mb-2 text-muted"
           tag="h6"
         >
-          Card subtitle
+          Alex Hirsch
         </CardSubtitle>
         <CardText>
-          Some quick example text to build on the card title and make up the bulk of the card‘s content.
+        Você possui em suas mãos o cobiçado diário do autor da série Gravity Falls, um tesouro de 288 páginas coloridas e sem dono, com segredos nunca antes revelados, monstros e mistérios da pacata cidade do Tivô Stan.
         </CardText>
         <Button>
-          Button
+          Confira
         </Button>
       </CardBody>
     </Card>
