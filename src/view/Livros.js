@@ -37,6 +37,11 @@ import './css/Livros.css'
           if (!livros) return null;
 
         return(
+            <>
+            <div className="btnAdd d-grid">
+                <Button href="/AddLivros" className="container" size="lg" color="success">Adicionar</Button>
+            </div>
+
             <div>
             <Table striped className="navStyle container">
                 <thead>
@@ -60,18 +65,15 @@ import './css/Livros.css'
                              <td>{idioma}</td>
                              <td>{paginas}</td>
                              <td>{ano}</td>
-                             <td><Button href="/AddLivros" color="success">Adicionar</Button></td>
                              <td><Link to={{ pathname: `/EditLivros/${id}`}} href="/EditLivros"><Button color="warning">Editar</Button></Link></td>
-                             <td><Button onClick={() => deletePost(id)} color="danger">Excluir</Button></td>
+                             <td><Button onClick={() => deletePost(id)} size="" color="danger">Excluir</Button></td>
                          </tr>
                         ))}
-                       
-                      
-                    
+                                 
                 </tbody>
             </Table>
             </div>
-            
+        </>
         )
     }
 
