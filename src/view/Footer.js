@@ -24,7 +24,7 @@ const Footer = () => {
       </MDBContainer>
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2022 - BOOK STORE
+        <b>© 2022 - BOOK STORE</b>
       </div>
     </MDBFooter>    
     );

@@ -71,6 +71,7 @@ const Contatos = () => {
         <Input
           id="exampleCity"
           name="city"
+          placeholder="Ex: Rio de Janeiro"
           required
         />
       </FormGroup>
@@ -83,6 +84,7 @@ const Contatos = () => {
         <Input
           id="exampleState"
           name="state"
+          placeholder="Ex: RJ"
           required
         />
       </FormGroup>
@@ -96,6 +98,7 @@ const Contatos = () => {
           id="exampleZip"
           name="zip"
           required
+          placeholder="00000-000"
         />
       </FormGroup>
     </Col>

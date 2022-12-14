@@ -1,6 +1,10 @@
 import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import './css/Sobre.css'
 
+import mission from './img/banner/missao.png';
+import values from './img/banner/valores.png';
+import vision from './img/banner/visao.png';
+
 const Sobre = () => {
     return (
       <>
@@ -14,35 +18,35 @@ const Sobre = () => {
         <MDBCol size='md' >
         <img
             alt="logo"
-            src="https://images.vexels.com/media/users/3/229082/isolated/preview/6fabc24c3830d75486725cc6d786dfbb-logotipo-dos-circulos-do-livro.png"
+            src= {mission}
             style={{
               height: 400,
               width: 400
             }}/>
-       Contribuir para o desenvolvimento pessoal e profissional através do conhecimento.
-Descobrir, apoiar e promover o talento literário, objetivando oferecer aos leitores de todo do Brasil e do mundo obras publicadas nos mais diversos gêneros, todas com qualidade e estética exemplar.
+      <h4 className="styleVVM"> Contribuir para o desenvolvimento pessoal e profissional através do conhecimento.
+Descobrir, apoiar e promover o talento literário, objetivando oferecer aos leitores de todo do Brasil e do mundo obras publicadas nos mais diversos gêneros, todas com qualidade e estética exemplar.</h4>
         </MDBCol>
         <MDBCol size='md'>
         <img
             alt="logo"
-            src="https://images.vexels.com/media/users/3/229082/isolated/preview/6fabc24c3830d75486725cc6d786dfbb-logotipo-dos-circulos-do-livro.png"
+            src={vision}
             style={{
               height: 400,
               width: 400
             }}/>
-            Ser uma empresa de atuação nacional e reconhecida como a melhor do segmento.
-        Promover a leitura e, em parceria com nossos autores, divulgar conteúdos que entretenham e inspirem a todos viver mais e melhor
+            <h4  className="styleVVM">Ser uma empresa de atuação nacional e reconhecida como a melhor do segmento.
+        Promover a leitura e, em parceria com nossos autores, divulgar conteúdos que entretenham e inspirem a todos viver mais e melhor</h4>
         </MDBCol>
         <MDBCol size='md'>
         <img
             alt="logo"
-            src="https://images.vexels.com/media/users/3/229082/isolated/preview/6fabc24c3830d75486725cc6d786dfbb-logotipo-dos-circulos-do-livro.png"
+            src={values}
             style={{
               height: 400,
               width: 400
             }}/>
-            Incentivo à leitura, ao desenvolvimento humano e à construção de uma sociedade melhor;
-        Trabalho em equipe com profissionalismo, competência, entusiasmo e inovação.
+            <h4  className="styleVVM">Incentivo à leitura, ao desenvolvimento humano e à construção de uma sociedade melhor;
+        Trabalho em equipe com profissionalismo, competência, entusiasmo e inovação.</h4>
         </MDBCol>
       </MDBRow>
     </MDBContainer>

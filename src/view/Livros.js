@@ -28,6 +28,7 @@ import './css/Livros.css'
                         title: "Apagado",
                         text: "Livro foi excluído com sucesso",
                         icon: "error",
+                        button: <Link to="/Livros" ></Link>
                       });
                 })
           }

@@ -4,6 +4,7 @@ import {useForm} from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
 import swal from 'sweetalert';
+import { Link } from "react-router-dom";
 
 
 
@@ -31,8 +32,9 @@ const AddLivros = () => {
         swal({
             title: "Livro Adicionado!",
             text: "Acesse a aba Livros para visualiza-lo",
-            icon: "success",
+            icon: "success"
           });
+          window.location('/Livros');
     })
     
 

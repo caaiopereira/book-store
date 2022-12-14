@@ -37,7 +37,7 @@ function EditLivros() {
         swal({
             title: "Livro Editado!",
             text: "Acesse a aba Livros para visualiza-lo",
-            icon: "success",
+            icon: "success"
           });
     })
     

@@ -6,6 +6,12 @@
 .margin-text{
     margin-top: 5em;
 }
+
+.styleVVM{
+    text-align: justify;
+    letter-spacing: 0em;
+}
+
 main {
     display: flex;
     justify-content: center;

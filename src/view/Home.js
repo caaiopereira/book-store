@@ -8,6 +8,7 @@ import {
   CarouselCaption,
 } from 'reactstrap';
 import './css/Home.css'
+import './css/Sobre.css'
 import { click } from '@testing-library/user-event/dist/click';
 
 import invest from './img/educacao/Investimentos Inteligentes.png'
@@ -138,12 +139,9 @@ function Home(args) {
         >
           Gustavo Cerbasi
         </CardSubtitle>
-        <CardText>
+        <CardText className="styleVVM">
         Estratégias para multiplicar seu patrimônio com segurança e eficiência.
         </CardText>
-        <Button>
-          Confira
-        </Button>
       </CardBody>
     </Card>
 
@@ -168,12 +166,10 @@ function Home(args) {
         >
           Robert T. Kiyosaki
         </CardSubtitle>
-        <CardText>
+        <CardText className="styleVVM">
         Celebrando 20 anos com o livro n° 1 em finanças pessoais.
         </CardText>
-        <Button>
-          Confira
-        </Button>
+
       </CardBody>
     </Card>
 
@@ -200,12 +196,10 @@ function Home(args) {
         >
           Augusto Cury
         </CardSubtitle>
-        <CardText>
+        <CardText className="styleVVM">
         Os pais e os professores lutam pelo mesmo sonho: tornar seus filhos e alunos felizes, saudáveis e sábios. Mas jamais estiveram tão perdidos na árdua tarefa de educar.
         </CardText>
-        <Button>
-          Confira
-        </Button>
+
       </CardBody>
     </Card>
 
@@ -232,12 +226,10 @@ function Home(args) {
         >
           Paulo Freire
         </CardSubtitle>
-        <CardText>
+        <CardText className="styleVVM">
         Clássico do Patrono da Educação, Pedagogia do oprimido é uma das obras de ciências sociais e humanas mais citadas no mundo.
         </CardText>
-        <Button>
-          Confira
-        </Button>
+
       </CardBody>
     </Card>
 </div>
@@ -271,12 +263,10 @@ function Home(args) {
         >
           Márcio Trevisan
         </CardSubtitle>
-        <CardText>
+        <CardText className="styleVVM">
         Uma das mais conhecidas frases do mundo da bola diz que, no futebol, a velocidade é essencial, mas a pressa... totalmente dispensável.
         </CardText>
-        <Button>
-          Confira
-        </Button>
+
       </CardBody>
     </Card>
 
@@ -302,12 +292,10 @@ function Home(args) {
         >
           Christopher Clarey
         </CardSubtitle>
-        <CardText>
+        <CardText className="styleVVM">
         A biografia definitiva de um verdadeiro campeão e um ídolo que segue fazendo história.
         </CardText>
-        <Button>
-          Confira
-        </Button>
+
       </CardBody>
     </Card>
 
@@ -334,12 +322,10 @@ function Home(args) {
         >
           Perarnau Martí
         </CardSubtitle>
-        <CardText>
+        <CardText className="styleVVM">
         Josep Guadiola i Sala, ou simplesmente Pep Guardiola, o nome que o futebol consagrou, é o personagem central do livro.
         </CardText>
-        <Button>
-          Confira
-        </Button>
+
       </CardBody>
     </Card>
 
@@ -367,12 +353,10 @@ function Home(args) {
         >
           José Salibi Neto
         </CardSubtitle>
-        <CardText>
+        <CardText className="styleVVM">
         Todos nós colecionamos vitórias e derrotas na vida. A diferença está em aumentar as chances de vencer. Nada melhor do que os esportes de alta performance para ensinar isso.
         </CardText>
-        <Button>
-          Confira
-        </Button>
+
       </CardBody>
     </Card>
 
@@ -407,12 +391,10 @@ function Home(args) {
         >
           Charlie Donlea
         </CardSubtitle>
-        <CardText>
+        <CardText className="styleVVM">
         Summit Lake, uma pequena cidade entre montanhas, é esse tipo de lugar, bucólico e com encantadoras casas dispostas à beira de um longo trecho de água intocada. Duas semanas atrás, a estudante de direito Becca Eckersley foi brutalmente assassinada em uma dessas casas. Filha de um poderoso advogado, Becca estava no auge de sua vida. Atraída instintivamente pela notícia, a repórter Kelsey Castle vai até a cidade para investigar o caso.
         </CardText>
-        <Button>
-          Confira
-        </Button>
+
       </CardBody>
     </Card>
 
@@ -438,12 +420,10 @@ function Home(args) {
         >
           George Orwell
         </CardSubtitle>
-        <CardText>
+        <CardText className="styleVVM">
         Verdadeiro clássico moderno, concebido por um dos mais influentes escritores do século XX, A revolução dos bichos é uma fábula sobre o poder. Narra a insurreição dos animais de uma granja contra seus donos. Progressivamente, porém, a revolução degenera numa tirania ainda mais opressiva que a dos humanos.
         </CardText>
-        <Button>
-          Confira
-        </Button>
+
       </CardBody>
     </Card>
 
@@ -470,12 +450,10 @@ function Home(args) {
         >
           Colleen Hoover
         </CardSubtitle>
-        <CardText>
+        <CardText className="styleVVM">
         Considerado o livro do ano, que virou febre no TikTok e sozinho já acumulou mais de um milhão de exemplares vendidos no Brasil. É assim que acaba é o romance mais pessoal da carreira de Colleen Hoover, discutindo temas como violência doméstica e abuso psicológico de forma sensível e direta. 
         </CardText>
-        <Button>
-          Confira
-        </Button>
+
       </CardBody>
     </Card>
 
@@ -503,12 +481,10 @@ function Home(args) {
         >
           Alex Hirsch
         </CardSubtitle>
-        <CardText>
+        <CardText  className="styleVVM">
         Você possui em suas mãos o cobiçado diário do autor da série Gravity Falls, um tesouro de 288 páginas coloridas e sem dono, com segredos nunca antes revelados, monstros e mistérios da pacata cidade do Tivô Stan.
         </CardText>
-        <Button>
-          Confira
-        </Button>
+
       </CardBody>
     </Card>
 

@@ -5,7 +5,9 @@ import { Outlet } from "react-router-dom";
 const NoPage = () => {
     return (
       <>
-    <a href='/'><img src={error} className="banner"/></a>
+      <div className="styleNopage">
+    <a  href='/'><img src={error} className="banner"/></a>
+    </div>
     <Outlet />
     </>
     );
