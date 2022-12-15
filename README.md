@@ -5,7 +5,20 @@
     aprendido em aula, nele iremos desenvolver um site que
     deverá utilizar um servidor Json construído anteriormente.
     Este projeto deverá seguir um tema dos utilizados pelos
-    integrantes no projeto 1. 
+    integrantes no projeto 1.
+    
+# Conteúdo  
+    Utilizado o framework React
+    Slides, Cards, Table, Banners, Form e Logo
+    Livros com descrição e imagem
+    GET de informações do API
+    POST de novos livros
+    PUT para atualização dos livros
+    DELETE para exclusão de livros
+    Footer com descrição e redes sociais
+    Navbar com links das páginas
+    Sobre com missão, visão e valores
+    
 
 # Requisitos
     
@@ -27,5 +40,3 @@
     
     □ DELETE - Opção de excluir itens
     cadastrados.
-
---//
