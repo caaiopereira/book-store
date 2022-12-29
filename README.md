@@ -39,4 +39,4 @@
     cadastros ou produtos;
     
     □ DELETE - Opção de excluir itens
-    cadastrados.
+    cadastrados
