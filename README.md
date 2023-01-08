@@ -23,7 +23,7 @@
 # Requisitos
     
     ⇨ Utilizar a biblioteca react-router-dom para
-    roteamento das páginas;
+    roteamento das páginas
     
     ◼ O site deve realizar todos os métodos
     HTTP:
